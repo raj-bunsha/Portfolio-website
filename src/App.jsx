@@ -62,7 +62,7 @@ const App = () => {
             }
           />
           <Route
-            path="/feedbacks"
+            path="/feedback"
             element={
               <>
                 <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
