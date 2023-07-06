@@ -11,6 +11,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Details
 } from "./components";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
               <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
                 <Navbar />
                 <Hero />
+                <Details />
               </div>
             }
           />
@@ -35,16 +37,6 @@ const App = () => {
                   <Navbar />
                 </div>
                 <About />
-              </>
-            }
-          />
-          <Route
-            path="/experience"
-            element={
-              <>
-                <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-                  <Navbar />
-                </div>
                 <Tech />
                 <Experience />
               </>
