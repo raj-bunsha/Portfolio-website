@@ -10,9 +10,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 .hash-span {
@@ -43,6 +43,11 @@
     #804dee 0%,
     rgba(60, 51, 80, 0) 100%
   );
+}
+.ptext-stext-gradient
+{
+  background: "#6d3e8e";
+  background: linear-gradient(90deg, #cccff5 100%, #6d3e8e 100%);
 }
 
 .green-pink-gradient {
@@ -130,7 +135,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.vertical-timeline::before {
+  background: #cccff5;
+}
 
 /* canvas- styles */
 .canvas-loader {

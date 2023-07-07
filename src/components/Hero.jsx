@@ -6,13 +6,13 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   
   return (
-    <section className={`relative w-full h-screen py-20 md:py-10 flex-wrap`}>
+    <section className={`relative w-full h-screen py-20 sm:py-0 flex-wrap`}>
         <div className="flex flex-wrap h-screen">
             <div className="flex flex-col text-center items-center justify-center w-full md:w-1/2">
-                <h1 className={`${styles.heroHeadText} text-[#041e01]`}>
-                    Hi, I'm <span className='text-[#6e037c]'>RAJ</span>
+                <h1 className={`${styles.heroHeadText} text-ptext`}>
+                    Hi, I'm <span className='text-secondary'>Raj</span> Bunsha
                 </h1>
-                <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+                <p className={`${styles.heroSubText} mt-2 text-ptext-100`}>
                     I develop Games, User <br className='sm:block hidden' />
                     Interfaces and Web Applications
                 </p>
