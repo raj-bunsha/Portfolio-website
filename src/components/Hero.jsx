@@ -6,7 +6,7 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   
   return (
-    <section className={`relative w-full h-screen py-20 sm:py-0 flex-wrap`}>
+    <section className={`relative w-full md:h-screen pt-20 sm:pt-0 flex-wrap`}>
         <div className="flex flex-wrap h-screen">
             <div className="flex flex-col text-center items-center justify-center w-full md:w-1/2">
                 <h1 className={`${styles.heroHeadText} text-ptext`}>
@@ -17,7 +17,7 @@ const Hero = () => {
                     Interfaces and Web Applications
                 </p>
             </div>
-            <div className="w-full md:w-1/2 h-full">
+            <div className="w-full md:w-1/2 md:h-full">
                 <ComputersCanvas />
             </div>
         </div>

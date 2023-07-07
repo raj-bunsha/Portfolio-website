@@ -12,8 +12,8 @@ const Details = () => {
       <h1 className="text-ptext text-[60px] font-bold text-center">
         About <span className="text-stext">Me</span>
       </h1>
-      <div className="flex flex-row w-full">
-        <div className="flex flex-col justify-center items-center w-full md:w-[75 %] overflow-hidden bg-tertiary">
+      <div className="flex flex-col sm:flex-row w-full">
+        <div className="flex flex-col justify-center items-center w-full sm:w-3/4 overflow-hidden bg-tertiary">
             <p className="text-ptext text-[18px] font-medium text-center mt-5 px-[10%]">
                 I am a Software Developer with a passion for creating interactive
                 experiences for the web. I am currently pursuing my Bachelors in
@@ -34,7 +34,7 @@ const Details = () => {
 
             </p>
         </div>
-        <div className="flex justify-center items-center w-full sm:w-[25%] bg-secondary">
+        <div className="flex justify-center items-center w-full sm:w-1/4 bg-secondary">
             <img src={profile_photo} alt="Raj" className="h-[75%]" />
         </div>
       </div>
