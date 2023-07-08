@@ -21,18 +21,20 @@
   display: block;
 }
 
+/* Have a gradient that starts with  and ends with #6d3e8e  */
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #434343,
-    #000000
+  background: #cccff5; /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(
+    to bottom,
+    #cccff5,
+    #6d3e8e
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #434343,
-    #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(
+    to bottom,
+    #cccff5,
+    #6d3e8e
+  ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+
 }
 
 .violet-gradient {
