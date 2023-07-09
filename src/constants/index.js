@@ -333,7 +333,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: potteryio,
+    image: codetrack,
     source_code_link: "https://github.com/",
   },
   {
